@@ -79,7 +79,7 @@ export default function RootLayout({
         </header>
         <main className="site-main">{children}</main>
         <footer className="site-footer">
-          <p>© {currentYear} XEMC. All content and photographs. All rights reserved.</p>
+          <p>© {currentYear} XEMC. All rights reserved.</p>
         </footer>
       </body>
     </html>
