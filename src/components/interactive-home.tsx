@@ -24,28 +24,28 @@ const entryPoints = [
     href: "/projects",
     index: "[01]",
     title: "Projects",
-    description: "Selected products, experiments, and builds with practical constraints.",
+    description: "Selected products, experiments, and builds. Shipped or shipping.",
   },
   {
     href: "/blog",
     index: "[02]",
     title: "Blog",
-    description: "Notes on frontend systems, interface craft, and shipping tradeoffs.",
+    description: "What I'm learning about agents, shipping apps, and building with AI tools.",
   },
   {
     href: "/contact",
     index: "[03]",
     title: "Contact",
-    description: "Collaborations, consulting, or full-time opportunities.",
+    description: "Let's build something. Open to collaborations and interesting problems.",
   },
 ];
 
-const stack = ["Next.js App Router", "TypeScript", "Vercel deployment", "Editorial UI craft"];
+const stack = ["AI agents / MCP / automation", "Next.js / TypeScript", "SwiftUI Native Apps", "--dangerously-skip-permissions"];
 
 const buildNotes = [
-  "Asymmetrical first impression",
-  "Readable rhythm over decoration",
-  "Motion that respects content",
+  "Agent memory and tool orchestration",
+  "Indie apps",
+  "Build things you'd never have time for",
 ];
 
 const dragLimits: Record<DragTarget, Position> = {
@@ -316,15 +316,14 @@ export default function InteractiveHome() {
     >
       <section data-reveal-id="hero" className={`${styles.heroWrap} ${revealClass("hero")}`} style={withDelay(60)}>
         <div className={styles.hero} style={heroStyle}>
-          <p className={styles.eyebrow}>Portfolio / v1 scaffold</p>
+          <p className={styles.eyebrow}>Software Engineer / Builder / Currently shipping</p>
           <h1 className={styles.headline}>
-            <span>Code with editorial taste.</span>
-            <span>Built for depth,</span>
-            <span>not symmetry.</span>
+            <span>Software with a point of view.</span>
+            <span>Built end to end,</span>
+            <span>shipped for real.</span>
           </h1>
           <p className={styles.lede}>
-            I design and build web products with a developer-first mindset and a deliberate visual voice. This
-            version sets the structure now, then grows with case studies and writing.
+            Full-stack engineer exploring the edge of what one person can build with modern AI tooling. Currently shipping apps and experimenting with agents & automation.
           </p>
           <div className={styles.heroLinks}>
             <Link href="/projects">Browse projects</Link>
@@ -361,10 +360,10 @@ export default function InteractiveHome() {
           </div>
           <div className={styles.windowBody}>
             <pre className={styles.codeBlock}>
-{`$ npm run deploy
-> building with intention
-> pairing craft with constraints
-> shipping on vercel`}
+              {`$ cat PHILOSOPHY.md
+> ship before it's perfect
+> build what you'd actually use
+> AI is the multiplier, not the product`}
             </pre>
             <ul className={styles.stackList}>
               {stack.map((item) => (
@@ -397,7 +396,7 @@ export default function InteractiveHome() {
                 <span />
                 <span />
               </span>
-              <span>build notes</span>
+              <span>interests / now</span>
               <span className={styles.windowStatus}>{canInteract ? "drag" : "fixed"}</span>
             </button>
           </div>

@@ -15,9 +15,9 @@ export const metadataBase = resolveBaseUrl();
 
 export const siteConfig = {
   name: "XEMC",
-  defaultTitle: "XEMC | Developer Portfolio",
+  defaultTitle: "XEMC — Software Engineer & Builder",
   defaultDescription:
-    "Portfolio for XEMC, focused on frontend engineering, editorial interface design, and shipping polished web products.",
+    "Personal site of a full-stack engineer (ex-Google) building apps, AI agents, and web products.",
 };
 
 type PageMetadataInput = {

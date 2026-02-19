@@ -20,6 +20,7 @@ const drafts = [
     title: "Tazza",
     summary: "Caffeine tracking app with fast logging, widgets, and Live Activities for real-time intake tracking and daily pacing.",
     status: "In progress",
+    url: "https://tazza.xemc.dev/",
   },
   {
     title: "DeclutterSpace",

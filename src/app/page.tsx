@@ -3,9 +3,9 @@ import InteractiveHome from "@/components/interactive-home";
 import { createPageMetadata } from "@/lib/site-metadata";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Developer Portfolio",
+  title: "XEMC — Software Engineer & Builder",
   description:
-    "Portfolio homepage for XEMC featuring frontend engineering work, editorial UI direction, and shipped web products.",
+     "Personal site of a full-stack engineer (ex-Google) building apps, AI agents, and web products.",
   path: "/",
   imagePath: "/opengraph-image",
 });

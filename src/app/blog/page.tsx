@@ -5,25 +5,25 @@ import styles from "../entry.module.css";
 
 const drafts = [
   {
-    title: "Designing Interfaces That Survive Growth",
-    summary: "Principles for keeping UI systems coherent as products evolve.",
+    title: "Building a Caffeine Tracker for iPhone / Apple Watch",
+    summary: "SwiftUI, HealthKit, and WidgetKit. Shipping Tazza from idea to App Store.",
     status: "Draft",
   },
   {
-    title: "When To Break Visual Symmetry",
-    summary: "Using imbalance to create hierarchy without harming clarity.",
+    title: "Giving AI Agents Persistent Memory",
+    summary: "Embeddings, knowledge graphs, and what it takes to make an agent that actually remembers.",
     status: "Outline",
   },
   {
-    title: "How I Ship Frontend Work on Vercel",
-    summary: "Practical deployment flow, guardrails, and performance checks.",
+    title: "The iOS Storage Cleaner Market is Absurd",
+    summary: "Sensor Tower data, $10M/mo from simple apps, and what it means for indie developers.",
     status: "Queued",
   },
 ];
 
 export const metadata: Metadata = createPageMetadata({
   title: "Blog",
-  description: "Writing on frontend systems, interface craft, and practical deployment workflows.",
+  description: "Writing on iOS development, AI agents, and lessons from shipping indie apps.",
   path: "/blog",
   imagePath: "/blog/opengraph-image",
 });
@@ -34,8 +34,7 @@ export default function BlogPage() {
       <p className={styles.kicker}>Blog</p>
       <h1 className={styles.title}>Writing that supports the work.</h1>
       <p className={styles.lead}>
-        You have the blog entry point in place. We can now add MDX or a CMS source and publish these as full
-        articles when you are ready.
+        Thinking out loud about AI-powered development and the future of software engineering. Posts coming soon.
       </p>
       <ul className={styles.list}>
         {drafts.map((post, index) => (
