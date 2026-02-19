@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/site-metadata";
 import styles from "../entry.module.css";
 
 const drafts = [
@@ -18,6 +20,13 @@ const drafts = [
     status: "Queued",
   },
 ];
+
+export const metadata: Metadata = createPageMetadata({
+  title: "Blog",
+  description: "Writing on frontend systems, interface craft, and practical deployment workflows.",
+  path: "/blog",
+  imagePath: "/blog/opengraph-image",
+});
 
 export default function BlogPage() {
   return (

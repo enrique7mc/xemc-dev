@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/site-metadata";
 import styles from "../entry.module.css";
 
 const drafts = [
@@ -18,6 +20,13 @@ const drafts = [
     status: "Write-up pending",
   },
 ];
+
+export const metadata: Metadata = createPageMetadata({
+  title: "Projects",
+  description: "Selected frontend projects and case studies focused on product outcomes and system design.",
+  path: "/projects",
+  imagePath: "/projects/opengraph-image",
+});
 
 export default function ProjectsPage() {
   return (

@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/site-metadata";
 import styles from "../entry.module.css";
+
+export const metadata: Metadata = createPageMetadata({
+  title: "Contact",
+  description: "Contact XEMC for collaborations, consulting work, and full-time frontend opportunities.",
+  path: "/contact",
+  imagePath: "/contact/opengraph-image",
+});
 
 export default function ContactPage() {
   return (

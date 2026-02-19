@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Mono, Manrope, Playfair_Display } from "next/font/google";
+import { metadataBase, siteConfig } from "@/lib/site-metadata";
 import "./globals.css";
 
 const sans = Manrope({
@@ -21,8 +22,35 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "XEMC | Developer Portfolio",
-  description: "Editorial black and white personal website scaffold.",
+  metadataBase,
+  title: siteConfig.defaultTitle,
+  description: siteConfig.defaultDescription,
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+      },
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: ["/favicon.ico"],
+  },
 };
 
 export default function RootLayout({
