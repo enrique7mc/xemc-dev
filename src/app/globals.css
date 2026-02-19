@@ -123,9 +123,19 @@ a {
 .site-main {
   margin: 0 auto;
   max-width: 1200px;
-  min-height: calc(100vh - 86px);
+  min-height: calc(100vh - 142px);
   padding: clamp(1.8rem, 3.5vw, 4rem) clamp(1.25rem, 2vw, 2.4rem) 4rem;
   width: 100%;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(242, 242, 238, 0.18);
+  color: var(--paper-soft);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  padding: 0.95rem clamp(1.25rem, 2vw, 2.4rem) 1.2rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 780px) {
@@ -141,5 +151,9 @@ a {
 
   .site-main {
     padding-top: 1.8rem;
+  }
+
+  .site-footer {
+    padding-top: 0.85rem;
   }
 }

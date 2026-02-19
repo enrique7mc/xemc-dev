@@ -22,7 +22,7 @@ export default function PhotographyPage() {
       </p>
       <PhotographyGallery photos={photographyPhotos} />
       <p className={styles.helper}>
-        Replace test data in <code>src/data/photography.ts</code> when you are ready to ship your own set.
+        © {new Date().getFullYear()} XEMC. No reproduction without written permission.
       </p>
     </section>
   );

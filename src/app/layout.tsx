@@ -58,6 +58,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const currentYear = new Date().getFullYear();
+
   return (
     <html lang="en">
       <body className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
@@ -76,6 +78,9 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="site-main">{children}</main>
+        <footer className="site-footer">
+          <p>© {currentYear} XEMC. All content and photographs. All rights reserved.</p>
+        </footer>
       </body>
     </html>
   );
