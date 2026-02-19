@@ -5,7 +5,7 @@ import styles from "../entry.module.css";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Contact",
-  description: "Contact XEMC for collaborations, consulting work, and full-time frontend opportunities.",
+  description: "Contact xemc.dev for collaborations, consulting work, and full-time opportunities.",
   path: "/contact",
   imagePath: "/contact/opengraph-image",
 });
@@ -16,19 +16,18 @@ export default function ContactPage() {
       <p className={styles.kicker}>Contact</p>
       <h1 className={styles.title}>Let&apos;s build something sharp.</h1>
       <p className={styles.lead}>
-        This is the starting contact page for v1. You can keep it simple now, then expand with a form,
-        scheduling link, or collaboration FAQs in the next iteration.
+        If you're working on something interesting, want to collaborate, or just want to geek out about how something works, reach out.”
       </p>
       <div className={styles.links}>
-        <a className={styles.contactLink} href="mailto:hello@example.com">
+        <a className={styles.contactLink} href="mailto:hello@xemc.dev">
           hello@example.com
         </a>
-        <a className={styles.contactLink} href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a className={styles.contactLink} href="https://github.com/enrique7mc" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         <a
           className={styles.contactLink}
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/enrique7mc"
           target="_blank"
           rel="noopener noreferrer"
         >
