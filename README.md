@@ -29,3 +29,7 @@ Interactivity
   - Home-specific interaction styles are in src/app/page.module.css:1.
   - Secondary routes stay lightweight (src/app/projects/page.tsx:1, src/app/blog/page.tsx:1, src/app/contact/page.tsx:1) with shared
     scaffold styles (src/app/entry.module.css:1).
+
+Photography workflow
+
+  - For image prep/upload automation used by `/photography`, see scripts/README.md.

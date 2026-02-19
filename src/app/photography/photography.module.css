@@ -1,0 +1,294 @@
+.page {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.kicker {
+  border: 1px solid rgba(242, 242, 238, 0.22);
+  display: inline-flex;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.62rem;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.title {
+  font-family: var(--font-serif), serif;
+  font-size: clamp(2.2rem, 6vw, 5.1rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 0.93;
+}
+
+.lead {
+  color: var(--paper-soft);
+  font-size: clamp(1rem, 1.7vw, 1.22rem);
+  line-height: 1.58;
+  max-width: 62ch;
+}
+
+.helper {
+  color: var(--paper-soft);
+  font-size: 0.92rem;
+}
+
+.helper code {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.86rem;
+}
+
+.emptyState {
+  border: 1px solid rgba(242, 242, 238, 0.24);
+  color: var(--paper-soft);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  padding: 0.8rem 0.9rem;
+  text-transform: uppercase;
+}
+
+.galleryGrid {
+  display: grid;
+  gap: 0.7rem;
+  grid-auto-rows: 16px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  list-style: none;
+}
+
+.galleryItem {
+  --col-span: 4;
+  --col-span-tablet: 3;
+  --row-span: 24;
+  --row-span-tablet: 24;
+  grid-column: span var(--col-span);
+  grid-row: span var(--row-span);
+}
+
+.cardButton {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  line-height: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.cardImage {
+  display: block;
+  filter: saturate(0.92) contrast(1.04);
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.001);
+  transition: filter 260ms ease, transform 420ms ease;
+  width: 100%;
+}
+
+.cardOverlay {
+  align-items: flex-end;
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.82), rgba(5, 5, 5, 0.32) 48%, transparent 80%);
+  display: flex;
+  justify-content: space-between;
+  gap: 0.16rem;
+  inset: -1px;
+  opacity: 0;
+  padding: 0.9rem;
+  position: absolute;
+  transform: translateY(8px);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.cardMeta,
+.cardCounter {
+  color: var(--paper-soft);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cardCounter {
+  color: var(--paper);
+}
+
+.cardButton:hover .cardImage,
+.cardButton:focus-visible .cardImage {
+  filter: saturate(1) contrast(1.08);
+  transform: scale(1.04);
+}
+
+.cardButton:hover .cardOverlay,
+.cardButton:focus-visible .cardOverlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardButton:focus-visible {
+  outline: 2px solid rgba(242, 242, 238, 0.76);
+  outline-offset: -2px;
+}
+
+.lightbox {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  display: grid;
+  inset: 0;
+  padding: clamp(0.75rem, 1.8vw, 1.5rem);
+  position: fixed;
+  z-index: 60;
+}
+
+.lightboxInner {
+  align-items: center;
+  background: rgba(8, 8, 8, 0.95);
+  border: 1px solid rgba(242, 242, 238, 0.26);
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  margin: 0 auto;
+  max-height: calc(100vh - 3rem);
+  max-width: min(1200px, calc(100vw - 2rem));
+  padding: 0.8rem;
+  position: relative;
+  width: 100%;
+}
+
+.closeButton,
+.controlButton {
+  background: transparent;
+  border: 1px solid rgba(242, 242, 238, 0.3);
+  color: inherit;
+  cursor: pointer;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  padding: 0.45rem 0.65rem;
+  text-transform: uppercase;
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.closeButton {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+}
+
+.controlButton {
+  align-self: stretch;
+  min-width: 72px;
+}
+
+.closeButton:hover,
+.controlButton:hover {
+  background-color: rgba(242, 242, 238, 0.12);
+  border-color: rgba(242, 242, 238, 0.52);
+}
+
+.controlButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.lightboxFigure {
+  display: grid;
+  gap: 0.68rem;
+  margin: 0;
+  min-width: 0;
+}
+
+.lightboxImage {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-height: calc(100vh - 14rem);
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.lightboxCaption {
+  display: grid;
+  gap: 0.26rem;
+}
+
+.lightboxMeta {
+  color: var(--paper);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.lightboxNote {
+  color: var(--paper-soft);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1080px) {
+  .galleryGrid {
+    grid-auto-rows: 14px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .galleryItem {
+    grid-column: span var(--col-span-tablet);
+    grid-row: span var(--row-span-tablet);
+  }
+}
+
+@media (max-width: 760px) {
+  .galleryGrid {
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    gap: 0.82rem;
+  }
+
+  .galleryItem {
+    grid-column: span 1;
+    grid-row: auto;
+  }
+
+  .cardButton {
+    height: auto;
+  }
+
+  .cardImage {
+    height: auto;
+    width: 100%;
+  }
+
+  .lightboxInner {
+    grid-template-columns: 1fr;
+    max-height: calc(100vh - 1.2rem);
+    max-width: calc(100vw - 1rem);
+    padding: 0.65rem;
+  }
+
+  .controlButton {
+    display: none;
+  }
+
+  .closeButton {
+    right: 0.65rem;
+    top: 0.65rem;
+  }
+
+  .lightboxImage {
+    max-height: 64vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardImage,
+  .cardOverlay,
+  .closeButton,
+  .controlButton {
+    transition: none;
+  }
+}

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "photos:prepare": "node scripts/prepare-photography.mjs",
+    "photos:upload": "node scripts/upload-photography-to-vercel.mjs"
   },
   "dependencies": {
     "next": "16.1.6",

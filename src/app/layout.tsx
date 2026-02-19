@@ -70,6 +70,7 @@ export default function RootLayout({
           <nav className="site-nav" aria-label="Primary">
             <Link href="/">Home</Link>
             <Link href="/projects">Projects</Link>
+            <Link href="/photography">Photography</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/contact">Contact</Link>
           </nav>

@@ -16,7 +16,8 @@ export default function ContactPage() {
       <p className={styles.kicker}>Contact</p>
       <h1 className={styles.title}>Let&apos;s build something sharp.</h1>
       <p className={styles.lead}>
-        If you're working on something interesting, want to collaborate, or just want to geek out about how something works, reach out.”
+        If you&apos;re working on something interesting, want to collaborate, or just want to geek out about how
+        something works, reach out.
       </p>
       <div className={styles.links}>
         <a className={styles.contactLink} href="mailto:hello@xemc.dev">
