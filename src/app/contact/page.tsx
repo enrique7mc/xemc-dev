@@ -20,7 +20,7 @@ export default function ContactPage() {
       </p>
       <div className={styles.links}>
         <a className={styles.contactLink} href="mailto:hello@xemc.dev">
-          hello@example.com
+          hello@xemc.dev
         </a>
         <a className={styles.contactLink} href="https://github.com/enrique7mc" target="_blank" rel="noopener noreferrer">
           GitHub
