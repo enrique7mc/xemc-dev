@@ -19,7 +19,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 4 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-7-of-30',
@@ -29,7 +28,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 7 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-24-of-30',
@@ -39,7 +37,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 24 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-29-of-30',
@@ -49,7 +46,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 29 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-14-of-30',
@@ -59,7 +55,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 14 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-12-of-30',
@@ -69,7 +64,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 12 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-20-of-30',
@@ -79,7 +73,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1462,
     title: 'Portfolio 20 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-22-of-30',
@@ -89,7 +82,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 22 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-18-of-30',
@@ -99,7 +91,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 18 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-8-of-30',
@@ -109,7 +100,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1462,
     title: 'Portfolio 8 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-23-of-30',
@@ -119,7 +109,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 23 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-25-of-30',
@@ -129,7 +118,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 25 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-6-of-30',
@@ -139,7 +127,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 6 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-2-of-30',
@@ -149,7 +136,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 2 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-13-of-30',
@@ -159,7 +145,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 13 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-16-of-30',
@@ -169,7 +154,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 16 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-27-of-30',
@@ -179,7 +163,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 27 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-15-of-30',
@@ -189,7 +172,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 15 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-26-of-30',
@@ -199,7 +181,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 26 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-21-of-30',
@@ -209,7 +190,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 21 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-1-of-30',
@@ -219,7 +199,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 1 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-28-of-30',
@@ -229,7 +208,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 28 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-10-of-30',
@@ -239,7 +217,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1462,
     title: 'Portfolio 10 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-30-of-30',
@@ -249,7 +226,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 30 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-9-of-30',
@@ -259,7 +235,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 9 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-17-of-30',
@@ -269,7 +244,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 17 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-19-of-30',
@@ -279,7 +253,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 19 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-3-of-30',
@@ -289,7 +262,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 3 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-5-of-30',
@@ -299,7 +271,6 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 2600,
     title: 'Portfolio 5 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
   {
     id: 'portfolio-11-of-30',
@@ -309,6 +280,5 @@ export const photographyPhotos: PhotographyPhoto[] = [
     height: 1950,
     title: 'Portfolio 11 Of 30',
     takenAt: '2026-02-19',
-    location: 'Replace location',
   },
 ];
